@@ -1,0 +1,79 @@
+{
+  "todos": [
+    {
+      "content": "meditate more",
+      "completed": true,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "content": "drink enough water",
+      "completed": false,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "content": "go swimming",
+      "completed": true,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "content": "don't smoke",
+      "completed": false,
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "subTasks": [
+    {
+      "content": "newly created",
+      "completed": false,
+      "userId": 1,
+      "id": 6,
+      "todoId": 2
+    },
+    {
+      "content": "buy water",
+      "completed": false,
+      "userId": 1,
+      "id": 7,
+      "todoId": 3
+    },
+    {
+      "content": "carry water home",
+      "completed": false,
+      "userId": 1,
+      "id": 8,
+      "todoId": 3
+    },
+    {
+      "content": "lern swimming",
+      "completed": false,
+      "userId": 1,
+      "id": 9,
+      "todoId": 4
+    },
+    {
+      "content": "start smoking",
+      "completed": false,
+      "userId": 1,
+      "id": 10,
+      "todoId": 5
+    },
+    {
+      "content": "swallow water",
+      "completed": false,
+      "userId": 1,
+      "id": 11,
+      "todoId": 3
+    },
+    {
+      "content": "bla",
+      "completed": true,
+      "userId": 1,
+      "id": 12,
+      "todoId": 2
+    }
+  ]
+}
