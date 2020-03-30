@@ -2,27 +2,45 @@
   "todos": [
     {
       "content": "meditate more",
-      "completed": true,
+      "completed": false,
       "userId": 1,
-      "id": 2
+      "id": 2,
+      "priority": "low"
     },
     {
       "content": "drink enough water",
       "completed": false,
       "userId": 1,
-      "id": 3
+      "id": 3,
+      "priority": "low"
     },
     {
       "content": "go swimming",
-      "completed": true,
+      "completed": false,
       "userId": 1,
-      "id": 4
+      "id": 4,
+      "priority": "low"
     },
     {
       "content": "don't smoke",
       "completed": false,
       "userId": 1,
-      "id": 5
+      "id": 5,
+      "priority": "middle"
+    },
+    {
+      "content": "play football",
+      "completed": false,
+      "userId": 1,
+      "id": 6,
+      "priority": "low"
+    },
+    {
+      "content": "just a test",
+      "completed": false,
+      "userId": 1,
+      "id": 7,
+      "priority": 1
     }
   ],
   "subTasks": [
@@ -70,10 +88,18 @@
     },
     {
       "content": "bla",
-      "completed": true,
+      "completed": false,
       "userId": 1,
       "id": 12,
       "todoId": 2
+    },
+    {
+      "content": "get kick shoes",
+      "completed": false,
+      "userId": 1,
+      "id": 13,
+      "priority": 1,
+      "todoId": 6
     }
   ]
 }
